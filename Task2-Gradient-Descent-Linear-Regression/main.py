@@ -15,9 +15,11 @@ def gradient_descent(x, y):
 
     md = - (2 / n) * sum(x * (y - y_pred))
     bd = - (2 / n) * sum(y - y_pred)
-
+    
     m_curr = m_curr - learning_rate * md
     b_curr = b_curr - learning_rate * bd
+
+  print(md, bd)
 
   # plotting model
   plt.plot(x, y, 'o')
