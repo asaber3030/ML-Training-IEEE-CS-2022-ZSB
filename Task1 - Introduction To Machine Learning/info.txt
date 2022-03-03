@@ -1,0 +1,1 @@
+A command-line program using python to solve a system of linear equations using Gaussian Elimination. You should implement it from scratch with minimal use of built-in facilities or libraries in the programming language.
